@@ -5,7 +5,8 @@ angular.module('myApp', [
     'ngRoute',
     'myApp.recipes',
     'myApp.view2',
-    'myApp.version'
+    'myApp.version',
+    'restangular'
 ]).
     config(['$routeProvider', 'RestangularProvider', function ($routeProvider, RestangularProvider) {
         $routeProvider.otherwise({redirectTo: '/recipes'});
