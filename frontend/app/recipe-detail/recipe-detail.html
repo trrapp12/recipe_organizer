@@ -1,0 +1,12 @@
+
+<h1>{{ recipe.name }}</h1>
+<input ng-show = "editing" ng-model="recipe.name">
+
+<p>{{ recipe.description }}</p>
+<textarea ng-show = "editing" ng-model="recipe.description"></textarea>
+
+<p>{{ recipe.directions }}</p>
+<textarea ng-show = "editing" ng-model="recipe.directions"></textarea>
+
+<button class="btn btn-sm btn-danger" ng-click="deleteRecipe()">Delete Recipe</button>
+<button class="btn btn-sm btn-info glyphicon glyphicon-pencil" ng-click="editing = !editing" > Edit</button>
