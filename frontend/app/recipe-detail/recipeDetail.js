@@ -28,4 +28,14 @@ angular.module('myApp.recipeDetail', ['ngRoute'])
             });
         }
     };
+
+    $scope.savedEditRecipe = function() {
+        Restangular.one("recipes",$scope.recipeId).customPUT($scope.recipe).then(function() {
+            alert("Your recipe has been updated successfully!");
+            $scope.editing=false;
+        },
+        function() {
+            alert("Something went wrong updating the recipe...");
+        });
+    };
 }]);
