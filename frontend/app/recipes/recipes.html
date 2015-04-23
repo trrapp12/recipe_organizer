@@ -1,3 +1,11 @@
-<ul>
-    <li ng-repeat='recipe in recipes'><a href="#/recipes/{{recipe.id }}">{{ recipe.name }}</a></li>
-</ul>
+<!--<input ng-model="searchText.name">-->
+<!--<div ng-repeat="recipe in recipes | filter:searchText"-->
+<div class="col-sm-6 col-md-4" ng-repeat="recipe in recipes" >
+    <div class="recipe-card">
+        <h3><a href="#/recipes/{{ recipe.id }}">{{ recipe.name }}</a></h3>
+        <img class="img-responsive recipe-card-image"
+             ng-src="{{ recipe.photo }}">
+        <p class="recipe-card-description">{{ recipe.description }}</p>
+    </div>
+</div>
+

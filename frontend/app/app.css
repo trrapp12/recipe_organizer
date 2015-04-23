@@ -28,3 +28,44 @@
   content: "";
   padding: 0;
 }
+
+.site-background {
+    background-image: url("images/dark_wood.png");
+}
+
+.site-foreground {
+    background-color: #dddddd;
+}
+
+.navbar {
+    margin-bottom: 0;
+}
+
+.recipe-card {
+    background-color: #ffffff;
+    border-radius: 3px;
+    padding: inherit;
+    padding-top: 1px;
+    margin-top: 30px;
+    height: 500px;
+}
+
+.recipe-card-image {
+    width: 100%;
+}
+
+.recipe-card-description {
+    margin-top: 15px;
+}
+
+/* This was to change the color of the main body text */
+.recipe-card-description {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #4C8FE7;
+}
+
+.containerfluid.col-sm-offset-2 { min-width: 0%;
+  margin-left: 16.66666667%;
+}
