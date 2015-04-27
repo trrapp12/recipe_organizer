@@ -3,4 +3,4 @@
 *.orig
 db.sqlite3
 backend/apps/recipes/media
-/static
+*/static
