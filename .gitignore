@@ -2,4 +2,4 @@
 *.pyc
 *.orig
 db.sqlite3
-media/
+backend/apps/recipes/media
