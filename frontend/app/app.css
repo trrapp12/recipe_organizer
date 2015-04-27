@@ -30,11 +30,12 @@
 }
 
 .site-background {
-    background-image: url("images/dark_wood.png");
+    background-image: url("images/1920x1440-textures-wallpapers-texture-brown-background-patterns-free1.jpg");
 }
 
 .site-foreground {
     background-color: #dddddd;
+    opacity: .8;
 }
 
 .navbar {
@@ -68,4 +69,18 @@
 
 .containerfluid.col-sm-offset-2 { min-width: 0%;
   margin-left: 16.66666667%;
+}
+
+.body {
+   min-height: 100%;
+}
+
+.pinterest {
+    float: left;
+    position: relative;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50 px;
+    padding-left: 65px;
+
 }
