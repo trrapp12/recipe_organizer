@@ -69,7 +69,7 @@ angular.module('myApp.recipeDetail', ['ngRoute'])
                 });
 
             };
-            $http.get($scope.recipe.photo + '/', {responseType: 'arraybuffer'}).then(function(e){
+            $http.get($scope.recipe.photo, {responseType: 'arraybuffer'}).then(function(e){
                 console.log(e);
                 var file = new Blob([e.data]);
                 reader.readAsBinaryString(file);
