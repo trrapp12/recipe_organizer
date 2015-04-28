@@ -1,6 +1,6 @@
 .idea/
 *.pyc
 *.orig
-db.sqlite3
+#db.sqlite3
 backend/apps/recipes/media
 */static
