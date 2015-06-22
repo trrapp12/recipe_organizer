@@ -21,3 +21,7 @@ It slices, it dices...okay, not really, but it does do some cool stuff.
 ###What is under the hood?
 
 The recipe organizer uses a Django framework on an SQLite database.  It also uses Angular to make 
+
+###Why can't I see any code for it? 
+
+It has been pushed to the server branch for publication purposes.  If you can't see it look to see if you are on the master or the server branch.  The server branch has the most up-to-date code.
