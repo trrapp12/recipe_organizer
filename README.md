@@ -29,7 +29,7 @@ It has been pushed to the server branch for publication purposes.  If you can't 
 <blockquote>
 See below for example:
 ![serverbranch](https://cloud.githubusercontent.com/assets/11747875/8295956/559c0098-1907-11e5-9601-b696f42169db.jpg)
-<blockquote>
+</blockquote>
 
 ###What if I want to see some more of your stuff?
 
